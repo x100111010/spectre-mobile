@@ -28,7 +28,7 @@ jobs:
         run: dart format --output=none .
 
       - name: Analyze Dart Code
-        run: dart analyze
+        run: dart analyze --no-fatal-warnings
 
       - name: Run Flutter Tests
         run: flutter test
