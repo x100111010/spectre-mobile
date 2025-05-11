@@ -78,7 +78,7 @@ class Dialog extends StatelessWidget {
           borderRadius: BorderRadius.all(Radius.circular(4.0)));
   @override
   Widget build(BuildContext context) {
-    final DialogTheme dialogTheme = DialogTheme.of(context);
+    final dialogTheme = DialogTheme.of(context);
     return AnimatedPadding(
       padding: MediaQuery.of(context).viewInsets +
           const EdgeInsets.symmetric(horizontal: 20.0, vertical: 20.0),
